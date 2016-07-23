@@ -285,7 +285,7 @@ class Request
             parse_str($request->getContent(), $data);
             $request->request = new ParameterBag($data);
         }
-        
+
         return $request;
     }
 

@@ -54,10 +54,11 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'aupay729_aupaysdesgeants'),
-            'username'  => env('DB_USERNAME', 'aupay729'),
-            'password'  => env('DB_PASSWORD', 'cb6n291dw0'),
+            'host'      => 'localhost',
+            'database'  => 'aupay729_aupaysdesgeants',
+            'username'  => 'aupay729',
+            'password'  => 'cb6n291dw0'
+			'password'  => '',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',

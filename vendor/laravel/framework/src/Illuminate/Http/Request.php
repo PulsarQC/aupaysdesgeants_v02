@@ -756,6 +756,7 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
         if ($request instanceof static) {
             return $request;
         }
+
         $content = $request->content;
 
         $request = (new static)->duplicate(
